@@ -1,0 +1,25 @@
+.foodCard {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foodCard input {
+    height: 25px;
+    width: 50px;
+}
+
+.cardImage {
+    border-radius: 5px;
+    height: auto;
+    margin-right: 15px;
+    width: 30%;
+}
+
+.cardContent {
+    display: flex;
+}
+
+.mainCard {
+    width: 45%;
+}

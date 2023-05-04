@@ -1,0 +1,15 @@
+.buttonRounded {
+    background: #0d6efd;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    font-size: 14px;
+    height: 35px;
+    padding: 7px;
+    transition: 0.3s;
+}
+
+.buttonRounded:hover {
+    background: #003594;
+}
