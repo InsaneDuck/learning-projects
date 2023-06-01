@@ -19,7 +19,7 @@ export const useFetch = () => {
         setError(null);
         const headers = {
             'Content-Type': 'application/json',
-            Authorization: `Basic ${btoa(`${username}:${password}`)}`
+            Authorization: (!username&&!password)? null:`Basic ${btoa(`${username}:${password}`)}`
         };
 
         const response = await fetch(url, {headers});
